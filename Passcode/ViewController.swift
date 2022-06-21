@@ -67,6 +67,7 @@ class ViewController: UIViewController {
     //輸入密碼時imageview改變成實心
     func imageChange(){
         switch count{
+            
         case 0 :
             passcode1ImageView.isHighlighted = false
             passcode2ImageView.isHighlighted = false
